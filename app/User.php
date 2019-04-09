@@ -20,6 +20,6 @@ class User extends Authenticatable
      */
     public function getAvatarUrlAttribute()
     {
-        return url(is_null($this->avatar) ? '/img/user_default.png' : 'storage/img/' . $this->avatar);
+        return url(is_null($this->avatar) ? '/img/user_default.png' : 'storage/' . $this->avatar);
     }
 }

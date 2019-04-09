@@ -6,14 +6,16 @@ This simple Laravel CRM Demo is written using Laravel 5.8 and AdminLTE 3.  Once 
 - Dashboard: View reports about companies and their employees
 
 ## Requirements
+- PHP 7+
 - GD Library >= 2.0 or Imagick PHP extension >= 6.5.7
 - Fileinfo Extension (for Intervention Image package)
 
 ## Installation
-- Download latest source from https://github.com/TannSan/laravel-crm-demo
-- Create a database
+- Clone the repo: `git clone https://github.com/TannSan/laravel-crm-demo.git`
 - Create a copy of `.env.example` called `.env`
 - Update the APP_URL, database and email fields to match those of your server
+- Create an empty database and database user
+- In your web server settings set the web root for this project to be `/public`
 - `npm install`
 - `composer update`
 - `php artisan key:generate`
@@ -47,6 +49,7 @@ This simple Laravel CRM Demo is written using Laravel 5.8 and AdminLTE 3.  Once 
 
 ## Attributions
 - Laravel 5.8: https://laravel.com
+- Bootstrap 4: https://getbootstrap.com
 - AdminLTE 3: https://adminlte.io/themes/dev/AdminLTE/
   - `npm install admin-lte@v3.0.0-alpha.2 --save`
 - Boostrap Confirmation Box Used For Deletions: https://github.com/mistic100/Bootstrap-Confirmation

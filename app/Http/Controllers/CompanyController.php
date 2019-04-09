@@ -119,7 +119,7 @@ class CompanyController extends QueryAwareController
         $company = Company::findOrFail($id);
         $page_number = $this->getCompanyPageNumber($company);
         if (!empty($company->logo)) {
-            \File::delete(public_path('storage/img/' . $company->logo));
+            \File::delete(public_path('storage/' . $company->logo));
         }
         $company->delete();
 
@@ -145,7 +145,7 @@ class CompanyController extends QueryAwareController
             $image->resize(200, null, function ($constraint) {
                 $constraint->aspectRatio();
             });
-            $image_path = public_path('storage/img/' . $image_name);
+            $image_path = public_path('storage/' . $image_name);
             $image->save($image_path);
             $company->logo = $image_name;
             $company->save();

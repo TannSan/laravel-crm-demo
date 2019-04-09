@@ -24,7 +24,7 @@ class CompaniesTableSeeder extends Seeder
                         $constraint->aspectRatio();
                     });
                     $image_name = 'company_' . $company->id . '.' . $this->getLogoExtension($image);
-                    $image_path = public_path('storage/img/' . $image_name);
+                    $image_path = public_path('storage/' . $image_name);
                     $image->save($image_path);
                     $company->logo = $image_name;
                     $company->save();

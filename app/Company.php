@@ -19,7 +19,7 @@ class Company extends Model
      */
     public function getLogoUrlAttribute()
     {
-        return url('storage/img/' . ($this->logo ?? 'company_default.png'));
+        return url('storage/' . ($this->logo ?? 'company_default.png'));
     }
 
     /**

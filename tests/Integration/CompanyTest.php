@@ -72,7 +72,7 @@ class CompanyTest extends TestCase
         $response->assertStatus(302);
         $response->assertSessionHasNoErrors();
         $company->refresh();
-        $file_path = public_path('storage/img/' . $company->logo);
+        $file_path = public_path('storage/' . $company->logo);
         $this->assertFileExists($file_path);
         $this->assertTrue(\File::delete($file_path));
     }
