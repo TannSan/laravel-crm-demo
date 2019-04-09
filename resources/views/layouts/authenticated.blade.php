@@ -51,8 +51,8 @@
     <footer class="main-footer">
       <!-- To the right -->
       <div class="float-none float-sm-right text-center text-sm-right d-block">
-        <a class="btn btn-outline-secondary mb-3" href="https://github.com/TannSan/simple-crm-demo">{{ config('app.name') }} Github</a>
-        <a class="btn btn-outline-secondary mt-sm-auto mb-3" href="https://github.com/TannSan/simple-crm-demo/blob/master/LICENSE">MIT License</a>
+        <a class="btn btn-outline-secondary mb-3" href="https://github.com/TannSan/laravel-crm-demo">{{ config('app.name') }} Github</a>
+        <a class="btn btn-outline-secondary mt-sm-auto mb-3" href="https://github.com/TannSan/laravel-crm-demo/blob/master/LICENSE">MIT License</a>
       </div>
     </footer>
 

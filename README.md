@@ -10,6 +10,7 @@ This simple Laravel CRM Demo is written using Laravel 5.8 and AdminLTE 3.  Once 
 - Fileinfo Extension (for Intervention Image package)
 
 ## Installation
+- Download latest source from https://github.com/TannSan/laravel-crm-demo
 - Create a database
 - Create a copy of `.env.example` called `.env`
 - Update the APP_URL, database and email fields to match those of your server

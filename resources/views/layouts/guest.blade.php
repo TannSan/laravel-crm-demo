@@ -28,9 +28,9 @@
 
           <div class="card-header bg-dark text-center text-sm-left">
             @if(Route::currentRouteName() == 'login')
-            <a href="https://github.com/TannSan/simple-crm-demo" class="float-sm-left mr-0 mr-sm-3" title="{{ __('crm.visit', ['Name'=>'Laravel CRM Demo github']) }}"><img src="/android-chrome-192x192.png" alt="{{ config('app.name') }} Logo" class="brand-image" /></a>
+            <a href="https://github.com/TannSan/laravel-crm-demo" class="float-sm-left mr-0 mr-sm-3" title="{{ __('crm.visit', ['Name'=>'Laravel CRM Demo github']) }}"><img src="/android-chrome-192x192.png" alt="{{ config('app.name') }} Logo" class="brand-image" /></a>
             <div class="brand-text">
-              <h1 class="mt-3"><a href="https://github.com/TannSan/simple-crm-demo" title="{{ __('crm.visit', ['Name'=>'Laravel CRM Demo github']) }}">{{ config('app.name') }}</a></h1>
+              <h1 class="mt-3"><a href="https://github.com/TannSan/laravel-crm-demo" title="{{ __('crm.visit', ['Name'=>'Laravel CRM Demo github']) }}">{{ config('app.name') }}</a></h1>
               <h2 class="mb-0">@yield('page_title', 'Welcome')</h2>
             </div>
             @else
