@@ -1,0 +1,44 @@
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.sidebar .user-panel .info a {
+    font-size: 14px;
+}
+
+.popover-header {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+body.guest {
+    background: #fff url(/img/background-wave-repeat.png) repeat;
+
+    .content-wrapper,
+    .main-footer,
+    .main-header {
+        transition: unset;
+        margin-left: 0px;
+    }
+
+    .brand-image {
+        float: none;
+        max-width: 96px;
+        max-height: 96px;
+        margin-left: 0;
+        margin-right: auto;
+        margin-top: 0;
+    }
+
+    .brand-text {
+        h1 {
+            font-size: 21px;
+        }
+
+        h2 {
+            font-size: 21px;
+            font-weight: bold;
+        }
+    }
+}
